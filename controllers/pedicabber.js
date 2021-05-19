@@ -4,7 +4,8 @@ const router = Router();
 
 //index route
 router.get("/", async (req, res) => {
-  res.json(await Pedicabber.find({}));
+  // res.json(await Pedicabber.find({}));
+  res.json({"hello":"pedicabber-route"})
 });
 
 //create route
